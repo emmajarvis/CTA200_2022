@@ -1,0 +1,1000 @@
+  161  ls
+  162  cd output
+  163  ls
+  164  cd ..
+  165  ls
+  166  cd output
+  167  ls
+  168  cd ...
+  169  cd ..
+  170  ls
+  171  cd output
+  172  ls
+  173  cd ..
+  174  vi ./source/runSim.cpp
+  175  cd output
+  176  ls
+  177  cd ..
+  178  ls
+  179  ssh lobster
+  180  module load gcc/9.1.0 python/3.7.3
+  181  jupyter notebook --port=1210 --no-browser
+  182  ssh lobster
+  183  screen -r
+  184  ssh lobster
+  185  ssh -L1210:localhost:1210 lobster
+  186  cd diffusion_explosion_3
+  187  ks
+  188  ls
+  189  cd source
+  190  ls
+  191  vi SimData.hpp
+  192  vi SimData.cpp
+  193  vi PointGravity.hpp
+  194  mv PointGravity.hpp PointGravity1d.hpp
+  195  ls
+  196  vi PointGravity1d.hpp 
+  197  vi SimData.hpp
+  198  mv PointGravity1d.hpp PointGravity1D.hpp
+  199  ls
+  200  vi PointGravity1D.hpp 
+  201  vi PointGravity1D.cpp 
+  202  vi PointGravity1D.hpp 
+  203  vi PointGravity1D.cpp 
+  204  vi SeveralSources1D.hpp
+  205  vi SeveralSources1D.cpp
+  206  ls
+  207  vi PowerLaw.cpp 
+  208  vi PowerLaw.hpp 
+  209  vi SeveralSources1D.hpp
+  210  vi SeveralSources1D.cpp
+  211  vi PointGravity1D.cpp 
+  212  vi SeveralSources1D.hpp
+  213  vi PointGravity1D.hpp 
+  214  vi PointGravity1D.cpp 
+  215  vi SeveralSources1D.hpp
+  216  vi PointGravity1D.cpp vi Diffusion.hpp
+  217  ls
+  218  vi Diffusion.hpp
+  219  vi PowerLaw.hpp
+  220  vi SeveralSources1D.hpp
+  221  vi PointGravity1D.hpp
+  222  vi PointGravity1D.cpp
+  223  vi SimData.hpp
+  224  vi SimData.cpp
+  225  ls
+  226  cd ..
+  227  make
+  228  vi ./source/PowerLaw.cpp
+  229  vi ./source/PointGravity1D.cpp
+  230  vi ./source/PointGravity1D.pp
+  231  vi ./source/PointGravity1D.hpp
+  232  vi ./source/PointGravity1D.cpp
+  233  vi ./source/PointGravity1D.hpp
+  234  vi ./source/PointGravity1D.cpp
+  235  ls
+  236  cd source
+  237  ls
+  238  vi SeveralSources1D.cpp 
+  239  mv SeveralSources1D.hpp ./..
+  240  ls
+  241  mv SeveralSources1D.cpp ./..
+  242  cd ..
+  243  ls
+  244  cd source
+  245  ls
+  246  vi SimData.cpp
+  247  vi SimData.hpp
+  248  vi PointGravity1D.hpp
+  249  vi PointGravity1D.cpp
+  250  vi SimData.hpp
+  251  vi PointGravity1D.cpp
+  252  vi PointGravity1D.hpp
+  253  vi PointGravity1D.cpp
+  254  vi SimData.hpp
+  255  vi SimData.cpp
+  256  vi PointGravity1D.cpp
+  257  cd
+  258  cd huji1/
+  259  grep UniversalError `find . -name '*.cpp'`
+  260  ls
+  261  cd source
+  262  ls
+  263  cd newtonian/
+  264  cd one_dimensional/
+  265  grep UniversalError `find . -name '*.cpp'`
+  266  grep cylindrical_complementary `find . -name '*.cpp'`
+  267  cd
+  268  cd diffusion_explosion_3
+  269  ls
+  270  cd source
+  271  ls
+  272  vi PointGravity1D.cpp 
+  273  screen -r
+  274  ssh lobster
+  275  ssh -L1210:localhost:1210 lobster
+  276  cd diffusion_explosion_3
+  277  ls
+  278  vi SeveralSources1D.hpp 
+  279  vi SeveralSources1D.cpp 
+  280  mv SeveralSources1D.hpp ./source
+  281  mv SeveralSources1D.cpp ./source
+  282  ls
+  283  cd source
+  284  ls
+  285  vi SimData.hpp
+  286  ls
+  287  cd ..
+  288  ls
+  289  make
+  290  ls
+  291  vi ./source/SeveralSources1D.hpp
+  292  vi ./source/SeveralSources1D.hcpp
+  293  vi ./source/SeveralSources1D.cpp
+  294  vi ./source/SeveralSources1D.hpp
+  295  vi ./source/SimData.hpp
+  296  vi ./source/PointGravity1D.hpp
+  297  vi ./source/SeveralSources1D.hpp
+  298  vi ./source/SeveralSources1D.cpp
+  299  vi ./source/SeveralSources1D.hpp
+  300  vi ./source/SimData.hpp
+  301  vi ./source/SeveralSources1D.cpp
+  302  vi ./source/SimData.hpp
+  303  vi ./source/SimData.cpp
+  304  vi ./source/PowerLaw.cpp
+  305  vi ./source/PowerLaw.hpp
+  306  vi ./source/SeveralSources1D.hpp
+  307  vi ./source/PowerLaw.hpp
+  308  vi ./source/SimData.hpp
+  309  vi ./source/SimData.cpp
+  310  vi ./source/SeveralSources1D.hpp
+  311  vi ./source/Diffusion.hpp
+  312  vi ./source/SeveralSources1D.hpp
+  313  vi ./source/SeveralSources1D.cpp
+  314  vi ./source/SeveralSources1D.hpp
+  315  vi ./source/SeveralSources1D.cpp
+  316  vi ./source/SeveralSources1D.hpp
+  317  vi ./source/PointGravity1D.hpp
+  318  vi ./source/SeveralSources1D.hpp
+  319  vi ./source/SeveralSources1D.cpp
+  320  vi ./source/PointGravity1D.hpp
+  321  vi ./source/PointGravity1D.cpp
+  322  vi ./source/PowerLaw.cpp
+  323  vi ./source/PowerLaw.hpp
+  324  vi ./source/SeveralSources1D.hpp
+  325  vi ./source/SeveralSources1D.cpp
+  326  vi ./source/SimData.cpp
+  327  vi ./source/SimData.hpp
+  328  vi ./source/SimData.cpp
+  329  vi ./source/SimData.hpp
+  330  vi ./source/SeveralSources1D.hpp
+  331  ssh lobster
+  332  screen -r
+  333  screen -r 29351.pts-31.lobster
+  334  screen -D 29351.pts-31.lobster
+  335  screen -r
+  336  ssh lobster
+  337  ls
+  338  cd diffusion_explosion_3
+  339  ls
+  340  cd output
+  341  ls
+  342  cd .
+  343  cd ..
+  344  ls
+  345  cd source
+  346  ls
+  347  vi SeveralSources1D.hpp
+  348  screen 0r
+  349  screen -r
+  350  ssh -L1210:localhost:1210 lobter
+  351  ssh -L1210:localhost:1210 lobster
+  352  ssh lobster
+  353  module loa gcc/9.1.0 python/3.7.3
+  354  module load gcc/9.1.0 python/3.7.3
+  355  jupyter notebook --port=1210 --no-browser
+  356  ssh -L1210:localhost:1210 lobster
+  357  ssh lobster
+  358  ssh -L1211:localhost:1211 lobster
+  359  ssh lobster
+  360  module load gcc/9.1.0 python/3.7.3
+  361  jupyter notebook --port=1211 --no-browser
+  362  ssh lobster
+  363  cd diffusion_explosion_3
+  364  ls
+  365  cd source
+  366  ls
+  367  vi SeveralSources1D.hpp
+  368  ls
+  369  vi SeveralSources1D.hpp
+  370  vi SeveralSources1D.cpp
+  371  vi SeveralSources1D.hpp
+  372  vi SeveralSources1D.cpp
+  373  vi SeveralSources1D.hpp
+  374  vi SeveralSources1D.cpp
+  375  vi SeveralSources1D.hpp
+  376  vi SeveralSources1D.cpp
+  377  vi SeveralSources1D.hpp
+  378  vi SeveralSources1D.cpp
+  379  vi SeveralSources1D.hpp
+  380  vi SeveralSources1D.cpp
+  381  ci PowerLaw.cpp
+  382  vi PowerLaw.cpp
+  383  vi PowerLaw.hpp
+  384  vi SeveralSources1D.cpp
+  385  vi SeveralSources1D.hpp
+  386  vi SeveralSources1D.cpp
+  387  vi SeveralSources1D.hpp
+  388  vi SeveralSources1D.cpp
+  389  vi SimData.cpp
+  390  vi SimData.hpp
+  391  vi SimData.cpp
+  392  vi SimData.hpp
+  393  vi SimData.cpp
+  394  vi Diffusion.cpp
+  395  vi SimData.cpp
+  396  ls
+  397  vi fick.cpp
+  398  vi SimData.cpp
+  399  vi SeveralSources1D.cpp
+  400  vi SimData.cpp
+  401  vi SeveralSources1D.cpp
+  402  vi SimData.cpp
+  403  vi SimData.hpp
+  404  vi SimData.cpp
+  405  ls -l
+  406  :q
+  407  vi SimData.cpp
+  408  vi SimData.hpp
+  409  vi SimData.cpp
+  410  vi SeveralSources1D.hpp
+  411  vi SimData.cpp
+  412  vi SimData.hpp
+  413  vi SimData.cpp
+  414  vi runSim.cpp
+  415  ls
+  416  cd ..
+  417  ls
+  418  cd output
+  419  ls
+  420  cd ..
+  421  ls
+  422  cd diffusion_explosion_3
+  423  ls
+  424  rm -rf output
+  425  ls
+  426  mkdir output
+  427  cd output
+  428  ls
+  429  cd ..
+  430  cd output
+  431  ls
+  432  cd ..
+  433  cd output
+  434  ls
+  435  cd ..
+  436  ls
+  437  cd source
+  438  ls
+  439  vi PointGravity1D.hpp
+  440  vi PointGravity1D.cpp
+  441  vi PointGravity1D.hpp
+  442  vi SeveralSources1D.hpp
+  443  ls
+  444  cd .
+  445  cd ..
+  446  ls
+  447  cd output
+  448  ls
+  449  cd ..
+  450  cd source
+  451  ls
+  452  vi SeveralSources1D.hpp 
+  453  vi SimData.hpp
+  454  vi SimData.cpp
+  455  cd outptu
+  456  cd output
+  457  cd ..
+  458  cd output
+  459  ls
+  460  cd ..
+  461  vi SimData.cpp
+  462  vi ./source/SimData.cpp
+  463  pwd
+  464  vi ./source/SimData.cpp
+  465  vi ./source/SimData.hpp
+  466  ls
+  467  cd output
+  468  ls
+  469  cd ..
+  470  ls
+  471  cd output
+  472  ls -l
+  473  cd ..
+  474  cd output
+  475  ls
+  476  cd ..
+  477  cd output
+  478  ls
+  479  cd ..
+  480  ssh lobster
+  481  screen -r
+  482  screen -d
+  483  screen -D 29351.pts-31.lobster
+  484  screen -r
+  485  ssh lobster
+  486  cd diffusion_explosion_3
+  487  ls
+  488  cd output
+  489  ls
+  490  cd ..
+  491  ls
+  492  vi ./source/SimData.cpp
+  493  vi ./source/runSim.cpp
+  494  la
+  495  ls
+  496  cd output
+  497  ls
+  498  cd ..
+  499  ssh lobster
+  500  module load gcc/9.1.0 python/3.7.3
+  501  jupyter notebook --port=1211 --no-browser
+  502  ssh -L1211:localhost:1211
+  503  ssh -L1211:localhost:1211 lobster
+  504  ssh -L1211:localhost:1211
+  505  ssh -L1211:localhost:1211 lobster
+  506  cd diffusion_explosion_3
+  507  l
+  508  ls
+  509  cd output
+  510  ls
+  511  cd ..
+  512  cd output
+  513  ls
+  514  cd ..
+  515  cd output
+  516  ls
+  517  cd ..
+  518  ls
+  519  cd output
+  520  ls
+  521  cd ..
+  522  cd output
+  523  ls
+  524  cd ..
+  525  cd ouput
+  526  cd output
+  527  ls
+  528  cd ..
+  529  cd output
+  530  ls
+  531  cd ..
+  532  cd output
+  533  ls
+  534  cd ..
+  535  cd output
+  536  ls
+  537  cd ..
+  538  cd output
+  539  ls -l
+  540  cd ..
+  541  cd output
+  542  ls
+  543  cd ..
+  544  cd output
+  545  ls
+  546  cd ..
+  547  cd output
+  548  ls
+  549  cd ..
+  550  cd output
+  551  ls
+  552  cd ..
+  553  pwd
+  554  ssh lobster
+  555  module load gcc/9.1.0
+  556  jupyter notebook --port=1211 --no-browser
+  557  module load python/3.7.3
+  558  jupyter notebook --port=1211 --no-browser
+  559  ssh lobster
+  560  screen -r
+  561  ssh lobste
+  562  ssh lobster
+  563  cd diffusion_explosion_3
+  564  ls
+  565  vi Makefile
+  566  ls -l
+  567  ls
+  568  cd ..
+  569  ls
+  570  ssh lobster
+  571  ls
+  572  cd diffusion_explosion_3
+  573  ls
+  574  vi visualise.py
+  575  ls
+  576  cd output
+  577  ls
+  578  cd ..
+  579  scp * ejarvis@lobster.cita.utoronto.ca:/home/ejarvis/diffusion_explosion_3/source/
+  580  pwd
+  581  cd source
+  582  ls
+  583  scp * ejarvis@lobster.cita.utoronto.ca:/home/ejarvis/diffusion_explosion_3/source/Diffusion.cpp Diffusion.cpp
+  584  scp ejarvis@lobster.cita.utoronto.ca:/home/ejarvis/diffusion_explosion_3/source/Diffusion.cpp Diffusion.cpp
+  585  ls
+  586  vi Makefile
+  587  ;s
+  588  ls
+  589  cd ..
+  590  ls
+  591  vi Makefile
+  592  cd source
+  593  vi Makefile
+  594  screen -r
+  595  ls
+  596  cd diffusion_explosion
+  597  ld
+  598  ls
+  599  cd ..
+  600  ld
+  601  ls
+  602  cd diffusion_explosion_2
+  603  ls
+  604  cd output
+  605  ls
+  606  cd ..
+  607  ls
+  608  cd output_test
+  609  ls
+  610  cd ..
+  611  ls
+  612  pwd
+  613  cd source
+  614  ls
+  615  cd ..
+  616  ls
+  617  cd ..
+  618  ls
+  619  pwd
+  620  cd diffusion_explosion_2
+  621  ks
+  622  ls
+  623  ls -l
+  624  ls
+  625  cd build
+  626  ls
+  627  cd ..
+  628  ls
+  629  cd output
+  630  ls
+  631  cd ..
+  632  cd output_rest
+  633  cd output_test
+  634  ;s
+  635  ls
+  636  cd ..
+  637  ls
+  638  cd ..
+  639  l
+  640  ss
+  641  ls
+  642  cd ignore/
+  643  ls
+  644  cd ..
+  645  ssh lobster
+  646  screen -r
+  647  screen 0r
+  648  :Q
+  649  screen -r
+  650  screen -r
+  651  screen -D
+  652  screen -D 29351.pts-31.lobster
+  653  screen -d 29351.pts-31.lobster
+  654  screen -R 29351.pts-31.lobster
+  655  ssh -L1211:localhost:1211 lobster
+  656  ls
+  657  cd diffusion_explosion_3
+  658  ls
+  659  cd output
+  660  ls
+  661  cd ..
+  662  cd output
+  663  ls
+  664  cd ..
+  665  cd output
+  666  ls
+  667  cd ..
+  668  cd output
+  669  ls
+  670  cd ..
+  671  cd output
+  672  ls
+  673  cd ..
+  674  cd output
+  675  ls
+  676  cd outptu
+  677  cd output
+  678  ls
+  679  cd ..
+  680  ls
+  681  cd output
+  682  ls
+  683  cd ..
+  684  ls
+  685  cd outptu
+  686  l
+  687  cd output
+  688  ls
+  689  cd ..
+  690  cd outptu
+  691  cd output
+  692  ls
+  693  cd ..
+  694  ls
+  695  cd output
+  696  ls
+  697  cd ..
+  698  ls
+  699  cd output
+  700  ls
+  701  cd ..
+  702  cd output
+  703  ls
+  704  cd ..
+  705  pwd
+  706  cd output
+  707  ls
+  708  cd ..
+  709  cd output
+  710  ls
+  711  cd ..
+  712  cd output
+  713  ls
+  714  cd ..
+  715  cd output
+  716  ls
+  717  cd ..
+  718  cd output
+  719  ls
+  720  cd ..
+  721  cd output
+  722  ls
+  723  cd ..
+  724  cd output
+  725  ls
+  726  cd ..
+  727  cd output
+  728  ls
+  729  cd .
+  730  cd ..
+  731  cd output
+  732  ls
+  733  cd ..
+  734  ls
+  735  cd source
+  736  ls
+  737  vi SimData.hpp
+  738  vi SimData.cpp
+  739  cd ../output
+  740  ls
+  741  cd ..
+  742  cd output
+  743  ls
+  744  cd ..
+  745  cd output
+  746  ls
+  747  cd ..
+  748  cd
+  749  cd diffusion_explosion_2
+  750  ls
+  751  vi ./source/SimData.cpp
+  752  cd
+  753  cd diffusion_explosion_3
+  754  cd output
+  755  ls
+  756  cd ..
+  757  cd output
+  758  ls
+  759  cd ..
+  760  cd output
+  761  ls
+  762  cd output
+  763  pwd
+  764  ls
+  765  cd ..
+  766  ls
+  767  cd output
+  768  ls
+  769  cd ..
+  770  ssh lobster
+  771  module load gcc/9.1.0 python/3.7.3
+  772  jupyter notebook --port=1211 --no-browser
+  773  ssh lobster
+  774  screen -r
+  775  ssh lobster
+  776  module load gcc/9.1.0 pyhton/3.7.3
+  777  module load gcc/9.1.0 python/3.7.3
+  778  jupyter notebook --port=1211 --no-browser
+  779  ssh -L1211:localhost:1211 lobster
+  780  cd /cita/h/home-2/ayalin/Public/diffusion_explosion
+  781  ls
+  782  cd source
+  783  ls
+  784  cd ..
+  785  ls
+  786  cd diffusion_explosion/
+  787  ls
+  788  cd /mnt/raid-cita/ayalin/diffusion_explosion/diffusion_explosion
+  789  ls
+  790  vi check_energy_conservation.py
+  791  cd
+  792  ls
+  793  cd diffusion_explosion_3
+  794  ls
+  795  cd output_aug1
+  796  cd output_aug16/
+  797  ls
+  798  cd output_D_1e0_pow3.3
+  799  ls
+  800  cd ..
+  801  cd output_D_1e0_pow3.5
+  802  ls
+  803  cd ..
+  804  pwd
+  805  cd ..
+  806  cd output
+  807  ls
+  808  cd ..
+  809  ssh lobster
+  810  module load gcc/9.1.0 python/3.7.3
+  811  jupyter notebook --port=1211 --no-browser
+  812  ssh -L1211:localhost:1211 lobster
+  813  screen -r
+  814  screen -r 16168.pts-16.lobster
+  815  ssh -L1211:localhost:1211 lobster
+  816  cd diffusion_explosion_3
+  817  ls
+  818  cd output
+  819  ls
+  820  cd ..
+  821  cd output
+  822  ls
+  823  cd ..
+  824  vi ./source/PointGravity1D.cpp
+  825  cd output
+  826  ls
+  827  cd ..
+  828  cd output
+  829  ls
+  830  cd ..
+  831  vi ./source/PointGravity1D.cpp
+  832  vi ./source/PointGravity1D.hpp
+  833  vi ./source/PointGravity1D.cpp
+  834  vi ./source/PointGravity1D.hpp
+  835  cd source
+  836  ls
+  837  vi SeveralSources1D.cpp
+  838  cd ../output
+  839  ls
+  840  cd ..
+  841  ls
+  842  cd source
+  843  ls
+  844  vi SeveralSources1D.hpp
+  845  vi SimData.hpp
+  846  vi SimData.cpp
+  847  vi SimData.hpp
+  848  vi SimData.cpp
+  849  vi PointGravity1D.cpp
+  850  vi Diffusion.cpp
+  851  ls
+  852  vi PointGravity1D.cpp
+  853  cd ../output
+  854  ls
+  855  cd ..
+  856  vi PointGravity1D.cpp
+  857  vi ./source/PointGravity1D.cpp
+  858  vi ./source/SimData.hpp
+  859  ls
+  860  cd output
+  861  ls
+  862  cd ..
+  863  cd output
+  864  ls
+  865  cd
+  866  pwd
+  867  cd diffusion_explosion_3
+  868  ls
+  869  vi ./source/SimData.cpp
+  870  make
+  871  vi ./source/SimData.cpp
+  872  vi ./source/PointGravity1D.cpp
+  873  vi ./source/Diffusion.cpp
+  874  vi ./source/PointGravity1D.cpp
+  875  vi ./source/PointGravity1D.hpp
+  876  vi ./source/runSim.cpp
+  877  vi ./source/SimData.cpp
+  878  vi ./source/SimData.hpp
+  879  vi ./source/PointGravity1D.hpp
+  880  vi ./source/PointGravity1D.cpp
+  881  vi ./source/SeveralSources1D.cpp
+  882  pwd
+  883  cd output
+  884  ls
+  885  cd ..
+  886  cd output
+  887  ls
+  888  cd ..
+  889  vi ./source/SeveralSources1D.cpp
+  890  vi ./source/PointGravity1D.cpp
+  891  vi ./source/PointGravity1D.hpp
+  892  vi ./source/PointGravity1D.cpp
+  893  vi ./source/SeveralSources1D.cpp
+  894  cd output
+  895  ks
+  896  ls
+  897  cd ..
+  898  vi ./source/PointGravity1D.cpp
+  899  vi ./source/PointGravity1D.hpp
+  900  vi ./source/PointGravity1D.cpp
+  901  cd output
+  902  ls
+  903  cd ..
+  904  cd output
+  905  ls
+  906  cd ..
+  907  vi ./source/PointGravity1D.cpp
+  908  vi ./source/PointGravity1D.hpp
+  909  vi ./source/PointGravity1D.cpp
+  910  vi ./source/PointGravity1D.hpp
+  911  vi ./source/PointGravity1D.cpp
+  912  cd output
+  913  ls
+  914  cd ..
+  915  vi ./source/SimData.cpp
+  916  vi ./source/SimData.hpp
+  917  vi ./source/SimData.cpp
+  918  vi ./source/PointGravity1D.cpp
+  919  vi ./source/SimData.hpp
+  920  vi ./source/Diffusion.cpp
+  921  cd
+  922  ls
+  923  cd huji1/
+  924  ls
+  925  cd source
+  926  cd ..
+  927  grep SeveralSources `find . -name '*.cpp'`
+  928  vi ./source/SimData.cpp
+  929  cd
+  930  cd diffusion_explosion_3
+  931  ls
+  932  vi ./source/SimData.cpp
+  933  cd
+  934  cd diffusion_explosion_3
+  935  grep static_cast `find . -name '*.cpp'`
+  936  cd
+  937  cd huji1
+  938  grep static_cast `find . -name '*.cpp'`
+  939  ls
+  940  cd source
+  941  cd newtonian/one_dimensional/
+  942  grep static_cast `find . -name '*.cpp'`
+  943  cd ..
+  944  grep static_cast `find . -name '*.cpp'`
+  945  cd
+  946  cd diffusion_explosion_3
+  947  cd source
+  948  ls
+  949  vi SimData.cpp
+  950  vi SimData.hpp
+  951  vi SimData.cpp
+  952  vi PointGravity1D.cpp
+  953  vi SeveralSources1D.cpp
+  954  cd output
+  955  lx
+  956  cd ..
+  957  cd output
+  958  ls
+  959  ls -l
+  960  pwd
+  961  cd ..
+  962  ks
+  963  l
+  964  ls
+  965  vi ./source/SimData.cpp
+  966  ls
+  967  cd source
+  968  ls
+  969  vi SeveralSources1D.cpp
+  970  vi ./source/SimData.cpp
+  971  cd ..
+  972  cd -
+  973  vi ./source/SimData.cpp
+  974  vi ./source/SimData.hpp
+  975  vi ./source/SeveralSources1D.cpp
+  976  vi ./source/SimData.cpp
+  977  cd
+  978  grep BoolSpatial `find . -name '*.cpp'`
+  979  pwd
+  980  cd huji1/
+  981  cd source
+  982  cd newtonian/
+  983  grep BoolSpatial `find . -name '*.cpp'`
+  984  ssh lobster
+  985  module load gcc/9.1.0 python/3.7.3
+  986  jupyter notebook --port=1211 --no-browser
+  987  ssh lobster
+  988  scren -r
+  989  screen 0r
+  990  screen -r
+  991  screen -r 16168.pts-16.lobster
+  992  ssh lobster
+  993  pwd
+  994  cd diffusion_explosion_3
+  995  pwd
+  996  pip install photutils
+  997  /cita/local/bin/passwd
+  998  pwd
+  999  ls
+ 1000  ls -l
+ 1001  pwd
+ 1002  ls
+ 1003  ls -l
+ 1004  cd diffusion_explosion
+ 1005  ls
+ 1006  ls -l
+ 1007  cd ..
+ 1008  ls
+ 1009  pwd
+ 1010  mkdir SURP_2021
+ 1011  ls
+ 1012  mv diffusion_explosion SURP_2021
+ 1013  ls
+ 1014  cd SURP_2021/
+ 1015  ls
+ 1016  cd ..
+ 1017  ls
+ 1018  mv diffusion_explosion_2 SURP_2021/
+ 1019  mv diffusion_explosion_3 SURP_2021/
+ 1020  mv diffusion_explosion_emma SURP_2021/
+ 1021  mv env.txt SURP_2021/
+ 1022  mv ignore SURP_2021/
+ 1023  mv huji1 SURP_2021/
+ 1024  ls
+ 1025  pwd
+ 1026  cd SURP_2021/
+ 1027  ls
+ 1028  cd ..
+ 1029  pwd
+ 1030  ls
+ 1031  mkdir SURP_2022
+ 1032  ls
+ 1033  ls -l
+ 1034  cd SURP_2022
+ 1035  ls
+ 1036  module
+ 1037  module avail
+ 1038  ssh lobster
+ 1039  ls -la
+ 1040  cd ~murray
+ 1041  ls
+ 1042  cd Papers
+ 1043  ls
+ 1044  cd Hopkins/
+ 1045  ls
+ 1046  cd All_Feedback/
+ 1047  ls
+ 1048  cd second_draft/
+ 1049  ls
+ 1050  ls -l
+ 1051  ls -la
+ 1052  evince density_compare_fb.pdf 
+ 1053  read density_compare_fb.pdf 
+ 1054  evince
+ 1055  ls -la
+ 1056  history
+ 1057  pwd
+ 1058  cd
+ 1059  ls
+ 1060  pwd
+ 1061  history
+ 1062  ls
+ 1063  cd SURP_2022
+ 1064  vi file.txt
+ 1065  m file.txt 
+ 1066  emacs
+ 1067  pwd
+ 1068  cd ..
+ 1069  cd ~murray
+ 1070  ls
+ 1071  find . -name "list" 
+ 1072  find . -name "Hello_world.c" 
+ 1073  module load python 
+ 1074  ssh ejarvis@lobster.cita.utoronto.ca
+ 1075  cd ~fhorrobin/
+ 1076  ls
+ 1077  cd CTA200H/
+ 1078  ls
+ 1079  cd ..
+ 1080  ls
+ 1081  cd ~
+ 1082  pwd
+ 1083  history
+ 1084  pwd
+ 1085  ls
+ 1086  cd SURP_2022
+ 1087  mkdir CTA200_2022
+ 1088  vi assignment_1
+ 1089  ls
+ 1090  cd CTA200_2022
+ 1091  vi assignment_1.txt
+ 1092  vi README.md
+ 1093  cd /mnt
+ 1094  ls
+ 1095  cd scratch-lustre/
+ 1096  ls
+ 1097  cd ejarvis
+ 1098  ls
+ 1099  pwd
+ 1100  mkdir CTA200_2022
+ 1101  cd CTA200_2022/
+ 1102  vi assignment_1
+ 1103  vi README.md
+ 1104  cd ~murray
+ 1105  find . -name "Hello_world.c" 
+ 1106  cp ./Papers/tmp/Hello_world.c ~ /mnt/scratch-lustre/ejarvis/CTA200_2022/
+ 1107  cd /mnt/scratch-lustre/ejarvis
+ 1108  ls
+ 1109  cd CTA200_2022/
+ 1110  ls
+ 1111  cd ~murray
+ 1112  find . -name "Hello_world.py" 
+ 1113  cp ./tmp/Hello_world.py  ~ /mnt/scratch-lustre/ejarvis/CTA200_2022/
+ 1114  cd /mnt/scratch-lustre/ejarvis
+ 1115  ls
+ 1116  cd CTA200_2022/
+ 1117  mkdir assignment_1
+ 1118  ls
+ 1119  rm assignment_1
+ 1120  mkdir assignment_1
+ 1121  mv Hello_world.c assignment_1/
+ 1122  mv Hello_world.py assignment_1/
+ 1123  cd assignment_1/
+ 1124  ls
+ 1125  vi Hello_world.c
+ 1126  mv Hello_world.c Hello_world-jarvis-emma.c
+ 1127  mv Hello_world.py Hello_world-jarvis-emma.py
+ 1128  gcc
+ 1129  gcc Hello-world-jarvis-emma.c
+ 1130  pwd
+ 1131  ls
+ 1132  gcc Hello_world-jarvis-emma.c
+ 1133  ls
+ 1134  vi a.out
+ 1135  python Hello_world-jarvis-emma.py
+ 1136  a.out
+ 1137  gcc a.out
+ 1138  mv a.out Hellow_world.x
+ 1139  ls
+ 1140  gcc Hello_world-jarvis-emma.c
+ 1141  ls
+ 1142  mv a.out Hello_world.x
+ 1143  ls
+ 1144  history
+ 1145  ls
+ 1146  ./Hello_world.x
+ 1147  vi Hello_world-jarvis-emma.c
+ 1148  vi Hello_world-jarvis-emma.py
+ 1149  ls
+ 1150  ./Hello_world.x 
+ 1151  gcc Hello_world-jarvis-emma.c
+ 1152  ls
+ 1153  ./a.out
+ 1154  python Hello_world.py
+ 1155  ls
+ 1156  python Hello_world-jarvis-emma.py
+ 1157  python Hello_world-jarvis-emma.py > output_python.txt
+ 1158  mv a.out Hello_world.x
+ 1159  ./Hello_world.x > output_c.txt
+ 1160  history > history.txt
